@@ -1,0 +1,92 @@
+Solution for a step by step for vizualisation 
+
+
+Step 1: Connecting to the Data Source
+
+Open Tableau and click on "Connect to Data" in the start page.
+Select "Text File" as the data source and browse to the location of your dataset (e.g. "customer_purchases.csv").
+Click "Open" to connect to the data source.
+Tableau will automatically detect the data types and create a data model.
+
+Step 2: Creating a New Worksheet
+
+Click on the "Worksheet" tab in the top navigation menu.
+Click on the "New Worksheet" button.
+Name the worksheet "Customer Demographics".
+
+Step 3: Creating a Bar Chart to Visualize Customer Age Distribution
+
+Drag the "Age" field from the data pane to the "Columns" shelf.
+Drag the "Number of Records" field from the data pane to the "Rows" shelf.
+Right-click on the "Age" field and select "Dimension" > "Age (Binned)" to create a binned field.
+Adjust the bin size to 10 years.
+Click on the "Show Me" button and select the bar chart icon.
+Customize the chart by adding a title, labels, and colors.
+Visualization:
+
+Age (Binned)	Number of Records
+20-29	23,456
+30-39	31,234
+40-49	25,678
+50-59	18,901
+60-69	12,345
+
+Step 4: Creating a Map to Visualize Customer Location
+
+Drag the "Location" field from the data pane to the "Columns" shelf.
+Drag the "Number of Records" field from the data pane to the "Rows" shelf.
+Click on the "Show Me" button and select the map icon.
+Customize the map by adding a title, labels, and colors.
+Use the "Geography" role to create a geographic hierarchy.
+Visualization:
+
+Map of customer locations, with darker colors indicating higher concentrations of customers.
+
+Step 5: Creating a Scatter Plot to Visualize Customer Purchase Behavior
+
+Drag the "Average Order Value" field from the data pane to the "Columns" shelf.
+Drag the "Purchase Frequency" field from the data pane to the "Rows" shelf.
+Click on the "Show Me" button and select the scatter plot icon.
+Customize the plot by adding a title, labels, and colors.
+Use the "Color" shelf to color the points by customer segment (e.g. high-value, medium-value, low-value).
+Visualization:
+
+Scatter plot of customer purchase behavior, with high-value customers in blue, medium-value customers in green, and low-value customers in red.
+
+Step 6: Creating a Dashboard to Visualize Customer Segments
+
+Click on the "Dashboard" tab in the top navigation menu.
+Click on the "New Dashboard" button.
+Name the dashboard "Customer Segments".
+Drag the "Customer Demographics" worksheet onto the dashboard.
+Drag the "Customer Location" worksheet onto the dashboard.
+Drag the "Customer Purchase Behavior" worksheet onto the dashboard.
+Customize the dashboard by adding a title, labels, and colors.
+Visualization:
+
+Dashboard with three worksheets: customer demographics, customer location, and customer purchase behavior.
+
+Step 7: Creating a Story to Visualize Customer Journey
+
+Click on the "Story" tab in the top navigation menu.
+Click on the "New Story" button.
+Name the story "Customer Journey".
+Drag the "Customer Demographics" worksheet onto the story.
+Drag the "Customer Location" worksheet onto the story.
+Drag the "Customer Purchase Behavior" worksheet onto the story.
+Customize the story by adding a title, labels, and colors.
+Use the "Navigation" pane to create a narrative flow.
+Visualization:
+
+Story with three worksheets: customer demographics, customer location, and customer purchase behavior, with a narrative flow that takes the user through the customer journey.
+
+Step 8: Publishing the Visualization
+
+Click on the "Server" tab in the top navigation menu.
+Click on the "Publish Workbook" button.
+Select the desired publishing options (e.g. Tableau Public, Tableau Server).
+Enter a title, description, and tags for the visualization.
+Click "Publish" to publish the visualization.
+Visualization:
+
+Published visualization on Tableau Public or Tableau Server, with interactive filters, drill-down capabilities, and download options.

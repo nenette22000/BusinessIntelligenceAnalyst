@@ -20,6 +20,9 @@ const UrgentCare = () => {
               <li>Emergency medical treatment</li>
               <li>Emergency medical care</li>
             </ul>
+            <p>
+              We are committed to providing the best medical care to our patients.
+            </p>
         </div>
   );
 };

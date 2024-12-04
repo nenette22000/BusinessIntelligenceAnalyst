@@ -1,0 +1,31 @@
+.about {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    border: 3px solid;
+    background-image: url('');
+}
+
+.about-container {
+    height: 200px;
+    padding: 60px;
+}
+
+.about-content {
+    text-align: center;
+    background-color: aqua;
+    padding-top: 10px;
+}
+
+.about-tittle {
+    font-size: 20;
+}
+
+.about-text {
+    font-size: 14;
+}
+
+.about-image {
+    padding: 60px;
+}

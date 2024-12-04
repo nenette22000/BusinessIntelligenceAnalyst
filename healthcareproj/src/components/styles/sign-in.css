@@ -1,0 +1,10 @@
+.signin-container {
+    padding: 280px;
+    text-align: center;
+    text-align: center;
+    border: 3px solid;
+    height: 1500px;
+    background-image: url('../Images/sand2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

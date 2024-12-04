@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className = "about-container">
             <div className = "about-image">
-                <img src="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" alt="About Us" />
+                <img src="XXXXXXX" alt="About Us" />
             </div>
             <h1>About Us</h1>
               <p>

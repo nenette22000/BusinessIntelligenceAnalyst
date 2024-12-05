@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import './App.css';
+
 //import { BrowserRouter, Route, Switch } from 'react-router-dom';
 //import Header from './components/Header';
 //import Footer from './components/Footer';
@@ -29,7 +30,6 @@ function App() {
         <Route path="/urgent-care" element={<UrgentCare />} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/physicians" element={<Physicians />} />
-        <Route path="/ " element/>
       </Routes>
 
     </div>

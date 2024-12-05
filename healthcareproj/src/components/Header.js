@@ -21,6 +21,11 @@ const Header = () => {
 
           <div className="logo"> <img src={logo} alt="Logo" /> </div>
 
+          <div className="buttons">
+            <button className="sign-in">Sign In</button>
+            <button className="sign-up">Sign Up</button>
+          </div>
+
       </div>
     </header>
   );

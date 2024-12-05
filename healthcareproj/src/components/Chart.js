@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/styles/Chart.css';
+import '../components/styles/chart.css';
 
 
 
@@ -14,6 +14,10 @@ const Chart = () => {
           <h1>Prescription Chart</h1>
             <p>
               We provide interactive prescription charts to help you track your medical history.
+            </p>
+          <h1>Insurance Chart</h1>
+            <p>
+              We provide interactive insurance charts to help you track your medical history.
             </p>
 
         </div>

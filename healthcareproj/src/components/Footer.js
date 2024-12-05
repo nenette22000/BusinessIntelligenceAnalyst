@@ -6,8 +6,8 @@ import logo from '../components/images/logo2.png';
 const Footer = () => {
   return (
       <footer>
-          <div className="logo">
-            <img src={logo} alt="footer-logo" />
+          <div className = "logo">
+            <img src={logo} alt = "footer-logo" />
           </div>
           <p>&copy;
             2023 HealthCare. All rights reserved.</p>
@@ -25,6 +25,7 @@ const Footer = () => {
                   <li>  <NavLink to="/reset-password">Reset Password</NavLink></li>
                 </ul>
               </div>
+              <p>HealthCare is a registered trademark of HealthCare. All rights reserved.</p>
 
         </footer>
   );

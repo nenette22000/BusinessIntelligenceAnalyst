@@ -25,6 +25,21 @@ const SignIn = () => {
                 <p>
                   Don't have an account? <NavLink to="/sign-up">Sign Up</NavLink>
                 </p>
+                <p>
+                  <NavLink to="/reset-password">Forgot Password?</NavLink>
+                </p>
+                <p>
+                  <NavLink to="/chart">Chart</NavLink>
+                </p>
+                <p>
+                  <NavLink to="/physicians">Physicians</NavLink>
+                </p>
+                <p>
+                  <NavLink to="/facilities">Facilities</NavLink>
+                </p>
+                <p>
+                  <NavLink to="/about">About</NavLink>
+                </p>
           </div>
   );
 };
